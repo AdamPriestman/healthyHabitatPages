@@ -1,1 +1,66 @@
-<h1>Signup page</h1>
+<body class="m-0 p-0 h-screen w-full bg-green-100">
+  <div class="navbar"><h1>NAVBAR HERE</h1></div>
+
+  <div class="page flex flex-col items-center">
+    <div class="flex">
+      <form action="">
+        <div
+          class="formContainer flex flex-col items-center justify-center bg-slate-100 rounded-xl m-10 p-10"
+        >
+          <p>Complete the fields below to create your account</p>
+
+          <div class="p-2 m-2 bg-slate-200 rounded-xl w-full">
+            <label for="email">Email</label>
+            <input
+              type="text"
+              placeholder="Enter Email"
+              name="email"
+              required
+            />
+          </div>
+
+          <div class="p-2 m-2 bg-slate-200 rounded-xl w-full">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              placeholder="Enter Password"
+              name="password"
+              required
+            />
+          </div>
+
+          <div class="p-2 m-2 bg-slate-200 rounded-xl w-full">
+            <label for="password-repeat">Repeat Password</label>
+            <input
+              type="password"
+              placeholder="Repeat Password"
+              name="password-repeat"
+              required
+            />
+          </div>
+
+          <!-- <div class="p-2 m-2 bg-slate-200 rounded-xl w-full">
+            <label for="label_name">field_name</label>
+            <input
+              type="text"
+              placeholder="placeholder"
+              name="field_name"
+              required
+            />
+          </div> -->
+
+          <div class="container flex flex-col items-center justify-center">
+            <button
+              type="submit"
+              class="rounded-full bg-green-500 px-6 py-2 text-white hover:bg-green-600 text-2xl w-1/2 flex items-center justify-center"
+            >
+              Sign Up
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
